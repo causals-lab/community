@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0d1a21" />
+    <meta name="description" content="Causals Lab is building an evidence-backed causal knowledge graph and studying how graphs and language models reason together." />
+    <title>Causals Lab — Map causes. Test consequences.</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="wordmark" href="#top" aria-label="Causals Lab home"><span class="mark" aria-hidden="true">✳</span> Causals <span class="lab">Lab</span></a>
+      <nav aria-label="Main navigation">
+        <a href="#mission">Mission</a>
+        <a href="#work">Our work</a>
+        <a href="#contribute">Contribute</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">An open research initiative</p>
+          <h1 id="hero-title">Map causes.<br /><em>Test consequences.</em></h1>
+          <p class="lede">We are building an evidence-backed, evolving map of causal claims—and learning how to reason with it alongside language models.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#contribute">Join the work <span aria-hidden="true">↗</span></a>
+            <a class="text-link" href="#mission">What we are building <span aria-hidden="true">↓</span></a>
+          </div>
+        </div>
+        <div class="graph-art" role="img" aria-label="Illustration of connected claims, evidence, and questions">
+          <svg viewBox="0 0 560 500" aria-hidden="true">
+            <defs><linearGradient id="line" x1="0" x2="1"><stop stop-color="#76dec9"/><stop offset="1" stop-color="#d9aa63"/></linearGradient></defs>
+            <g class="edges" stroke="url(#line)" stroke-width="1.4" fill="none" opacity=".62">
+              <path d="M84 124 244 73 398 139 489 301 336 404 157 362 84 124"/>
+              <path d="M84 124 250 241 398 139M244 73 250 241 336 404M157 362 250 241 489 301M398 139 336 404"/>
+            </g>
+            <g fill="#0d1a21" stroke="#76dec9" stroke-width="2"><circle cx="84" cy="124" r="11"/><circle cx="244" cy="73" r="9"/><circle cx="398" cy="139" r="12"/><circle cx="250" cy="241" r="22"/><circle cx="157" cy="362" r="10"/><circle cx="336" cy="404" r="11"/><circle cx="489" cy="301" r="9"/></g>
+            <circle cx="250" cy="241" r="8" fill="#d9aa63"/><circle cx="398" cy="139" r="5" fill="#76dec9"/>
+            <g fill="#a9c4c5" font-size="13" font-family="ui-monospace, monospace"><text x="45" y="103">CLAIM</text><text x="220" y="48">SOURCE</text><text x="411" y="121">REVIEW</text><text x="268" y="246">?</text><text x="72" y="394">CONTEXT</text><text x="333" y="438">OUTCOME</text></g>
+          </svg>
+        </div>
+      </section>
+
+      <section class="statement" id="mission">
+        <p class="eyebrow">The mission</p>
+        <h2>A graph that can be questioned.</h2>
+        <p>Real-world causes are rarely simple. A useful graph must preserve where a claim came from, when it applies, what evidence supports it, and where people disagree. We aim to make those distinctions inspectable—not hide them behind a confident answer.</p>
+      </section>
+
+      <section class="work" id="work">
+        <div class="section-head"><p class="eyebrow">The work</p><h2>Four connected efforts</h2></div>
+        <div class="cards">
+          <article class="card"><span class="number">01</span><h3>Causals Graph</h3><p>An evolving, reviewable map of entities, relationships, evidence, and uncertainty.</p></article>
+          <article class="card"><span class="number">02</span><h3>Causals Ontology</h3><p>A shared language for expressing what a relationship means—and what it does not.</p></article>
+          <article class="card"><span class="number">03</span><h3>Causals Bench</h3><p>Evaluation tasks that test whether graph-and-LLM reasoning is grounded and useful.</p></article>
+          <article class="card"><span class="number">04</span><h3>Causals Commons</h3><p>A place for people to propose, investigate, review, and challenge the graph.</p></article>
+        </div>
+      </section>
+
+      <section class="contribute" id="contribute">
+        <div><p class="eyebrow">Help build it</p><h2>Bring a question.<br />Bring a source.<br /><em>Make it better.</em></h2></div>
+        <div class="contribute-copy"><p>You will be able to report a missing link, correct a record, review evidence, or help evaluate an answer. The public contribution workflow is being prepared.</p><p class="small">Please never share an LLM API key in a public issue, comment, or form. A secure compute-contribution program, if offered, will be announced separately.</p><span class="status">Community opening soon</span></div>
+      </section>
+    </main>
+
+    <footer><span>Causals Lab · 2026</span><span>Research initiative · Moirai is a separate commercial application</span></footer>
+  </body>
+</html>

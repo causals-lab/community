@@ -1,0 +1,55 @@
+name: Graph correction or addition
+description: Propose a traceable change to a node, relationship, or its evidence
+title: "[Graph] "
+labels: ["graph-proposal", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Do not paste API keys, private data, or substantial copyrighted text. A graph claim is not proof of causation.
+  - type: input
+    id: graph-record
+    attributes:
+      label: Graph record link or stable ID
+      description: Leave blank if this is a new record.
+      placeholder: "URL or ID"
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Exact proposed change
+      description: State the entities, relationship direction and type, scope, and relevant time period.
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Supporting sources
+      description: Provide source titles, links or identifiers, and what each source supports.
+    validations:
+      required: true
+  - type: dropdown
+    id: epistemic-status
+    attributes:
+      label: What does the evidence support?
+      options:
+        - Association
+        - Causal hypothesis
+        - Identified causal effect
+        - Mechanism or background relationship
+        - Unclear or disputed
+    validations:
+      required: true
+  - type: textarea
+    id: caveats
+    attributes:
+      label: Counterevidence or uncertainty
+      description: Include confounders, alternative explanations, and source limitations if known.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Submission checks
+      options:
+        - label: I have not included credentials or non-public personal information.
+          required: true
+        - label: I have disclosed material LLM assistance in the proposal, if any.
+          required: true
