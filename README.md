@@ -17,8 +17,6 @@ You can report a missing or incorrect node or relationship, supply a verifiable 
 
 Every accepted graph change should be traceable to a proposal, evidence, a review decision, and a graph version. Human and LLM-generated proposals go through review before publication.
 
-**Never post an LLM API key or other credential** in an issue, discussion, pull request, or graph submission.
-
 ## What is open today?
 
 This repository is a public collaboration space. Public visibility does not grant permission to reuse graph data, benchmark material, or implementation code. The release scope and licenses for each are being decided separately; see [OPENNESS.md](OPENNESS.md). The graph-building implementation is not part of this public repository.

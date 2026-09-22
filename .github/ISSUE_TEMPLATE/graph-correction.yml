@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Do not paste API keys, private data, or substantial copyrighted text. A graph claim is not proof of causation.
+        Do not paste private data or substantial copyrighted text. A graph claim is not proof of causation.
   - type: input
     id: graph-record
     attributes:
@@ -49,7 +49,7 @@ body:
     attributes:
       label: Submission checks
       options:
-        - label: I have not included credentials or non-public personal information.
+        - label: I have not included non-public personal information.
           required: true
         - label: I have disclosed material LLM assistance in the proposal, if any.
           required: true

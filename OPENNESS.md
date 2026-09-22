@@ -14,5 +14,3 @@ These are separate decisions:
 | Moirai application | Separate commercial product with its own terms. |
 
 We will publish explicit terms for each released artifact rather than describing the whole project simply as “open source.” Contributors should not assume that material submitted today can be incorporated into an openly licensed dataset without further review or consent. We will document the contribution terms before opening bulk contribution or annotation workflows.
-
-No user-supplied LLM API keys are collected through GitHub. Any future compute-contribution program will need a secure credential flow, spending controls, revocation, and clear responsibility for charges.
