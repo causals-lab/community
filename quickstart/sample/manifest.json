@@ -1,0 +1,35 @@
+{
+  "schema": "causals-graph-quickstart/1",
+  "source_snapshot": "v0.1.0-2026-10-09",
+  "source_manifest_sha256": "34b07e382a2302d38b58948d15e5325656eb8f922886bd4a3ed84367c6b65702",
+  "selection": "Nine specific edges from the three examples on causals.org/graph.html, with every endpoint and referenced source-news node",
+  "edge_ids": [
+    "6045b66b-d86f-4227-a4d8-0a716afb6492",
+    "68c24879-a541-43db-8b05-763e2af812ea",
+    "7c4b0a35-d9db-4f1b-8c25-8bfa52837b0e",
+    "93d65c52-069b-4cb6-9117-1a6901948f5a",
+    "95717613-d400-4871-ae2f-4f940f1b4172",
+    "998c7b77-51da-44eb-b7c2-d787fcf60e0b",
+    "9dae5ed8-668e-4336-a474-f8bfa2c0888e",
+    "d3b69d5d-f179-455c-b2f0-20a3063b1d40",
+    "fffb338f-57ae-4566-acc9-e4edffdf79e8"
+  ],
+  "endpoint_nodes": 12,
+  "source_news_nodes": 50,
+  "files": [
+    {
+      "file": "nodes.jsonl",
+      "records": 62,
+      "bytes": 9680,
+      "sha256": "d7f2b28e2f6d3f077f6b67b12e9e3b50bb04e0d4c18b5a931d1dd67422efba45"
+    },
+    {
+      "file": "edges.jsonl",
+      "records": 9,
+      "bytes": 4836,
+      "sha256": "905650649416e294142e954617235ea77cbdc4b946d01ee8b10196935cbeef08"
+    }
+  ],
+  "license": "CC BY 4.0; attribute Causals Lab and the source snapshot",
+  "interpretation": "A teaching sample of graph records, not a representative or independently validated set of causal effects"
+}

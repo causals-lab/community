@@ -10,6 +10,9 @@ remain available after newer snapshots are published.
 For simple browser downloads and an explanation of how to use the files, visit
 [causals.org/download/](https://causals.org/download/).
 
+For a runnable introduction before downloading the full graph, use the
+[10-minute notebook and small sample](../quickstart/README.md).
+
 Do not interpret all relationships as causal effects. The data card explains
 important limitations, including missing evidence links and relation types
 that are descriptive or observational. Report private correction or removal

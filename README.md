@@ -15,6 +15,8 @@ Website: [causals.org](https://causals.org).
 
 The first public graph snapshot is [Causals Graph v0.1.0-2026-10-09](data/v0.1.0-2026-10-09/). It contains 369,184 nodes and 1,272,418 directed edges. The [data card](data/v0.1.0-2026-10-09/DATA_CARD.md) explains the fields, source limitations, and why a recorded relationship is not proof of causation. The dataset is offered under [CC BY 4.0](data/v0.1.0-2026-10-09/LICENSE_DATA.md); software and third-party news content are not included in that grant. For private correction or removal requests, write to **data@causals.org**.
 
+New to the data? Start with the [10-minute notebook and 62-node sample](quickstart/README.md). No private code, database, or API key is needed.
+
 ## Contribute
 
 You can report a missing or incorrect node or relationship, supply a verifiable source, challenge a causal interpretation, review a proposal, or help design an evaluation task. Start with [CONTRIBUTING.md](CONTRIBUTING.md). You do not need to know Git to report a graph issue.
@@ -24,8 +26,6 @@ Every accepted graph change should be traceable to a proposal, evidence, a revie
 ## What is open today?
 
 This repository is a public collaboration space. The **versioned graph snapshot** above has explicit CC BY 4.0 terms. Public visibility alone does not grant permission to reuse other graph versions, benchmark material, or implementation code; see [OPENNESS.md](OPENNESS.md). The graph-building implementation is not part of this public repository.
-
-Moirai is a separate commercial application. The Lab's public research, data-release decisions, and contribution rules are described here rather than inferred from the app.
 
 ## Important distinction
 
