@@ -9,7 +9,11 @@ Our public work has four parts:
 - **Causals Bench** — evaluation tasks and datasets for graph-and-LLM reasoning.
 - **Causals Commons** — the community that proposes, checks, and improves this work.
 
-Website: [causals.org](https://causals.org) (launch in progress).
+Website: [causals.org](https://causals.org).
+
+## Download the graph
+
+The first public graph snapshot is [Causals Graph v0.1.0-2026-10-09](data/v0.1.0-2026-10-09/). It contains 369,184 nodes and 1,272,418 directed edges. The [data card](data/v0.1.0-2026-10-09/DATA_CARD.md) explains the fields, source limitations, and why a recorded relationship is not proof of causation. The dataset is offered under [CC BY 4.0](data/v0.1.0-2026-10-09/LICENSE_DATA.md); software and third-party news content are not included in that grant. For private correction or removal requests, write to **data@causals.org**.
 
 ## Contribute
 
@@ -19,7 +23,7 @@ Every accepted graph change should be traceable to a proposal, evidence, a revie
 
 ## What is open today?
 
-This repository is a public collaboration space. Public visibility does not grant permission to reuse graph data, benchmark material, or implementation code. The release scope and licenses for each are being decided separately; see [OPENNESS.md](OPENNESS.md). The graph-building implementation is not part of this public repository.
+This repository is a public collaboration space. The **versioned graph snapshot** above has explicit CC BY 4.0 terms. Public visibility alone does not grant permission to reuse other graph versions, benchmark material, or implementation code; see [OPENNESS.md](OPENNESS.md). The graph-building implementation is not part of this public repository.
 
 Moirai is a separate commercial application. The Lab's public research, data-release decisions, and contribution rules are described here rather than inferred from the app.
 
