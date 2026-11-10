@@ -17,6 +17,10 @@ The first public graph snapshot is [Causals Graph v0.1.0-2026-10-09](data/v0.1.0
 
 New to the data? Start with the [10-minute notebook and 62-node sample](quickstart/README.md). No private code, database, or API key is needed.
 
+## Reproduce the snapshot analysis
+
+The [analysis program and aggregate results](research/causals-paper/README.md) reproduce structural measurements of the public release with Python alone.
+
 ## Contribute
 
 You can report a missing or incorrect node or relationship, supply a verifiable source, challenge a causal interpretation, review a proposal, or help design an evaluation task. Start with [CONTRIBUTING.md](CONTRIBUTING.md). You do not need to know Git to report a graph issue.
